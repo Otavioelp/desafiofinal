@@ -1,0 +1,97 @@
+    footer {
+    background-color: #005695;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        
+        p{
+            width: 10vw;
+            color: #fff;
+        }
+    }
+
+    .linksfooter{
+    display: flex;
+    justify-content: space-around;
+    width: 17%;
+    height: 5vh;
+    
+    img{
+        width: 2vw;
+    }
+}
+
+    .linksfooter img:hover{
+        width: 2.5vw;
+        transition: 0.3s;
+    }
+
+    .rodape{
+        background-color: black;
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p{
+        width: 40%;
+        font-size: 15px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        text-align: center;}
+    }
+
+    .rodape p:hover{
+        color: #005695;
+        cursor: pointer;
+    }
+
+    .containerlinks{
+        height: 15vh;
+        width: 96%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .containerlinks p:hover{
+        cursor: pointer;
+        color: black;
+    }
+
+    @media (max-width: 780px){
+
+        footer{
+            height: 15vh;
+        }
+
+        .containerlinks{
+        flex-direction: column;
+        justify-content: space-around;
+        
+        p{
+        width: 21%;}
+
+        img{
+        width: 5vw;}
+        }
+
+        .linksfooter{
+        width: 35vw;
+        }
+
+        .rodape{
+        height: 7vh;    
+
+        p{
+        font-size: 10px;
+        width: 50%;
+            }
+        }
+    }
+
